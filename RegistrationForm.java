@@ -15,7 +15,11 @@ public class Register {
         frame.add(message);
 
         //
-        
+        JLabel nameLabel=new JLabel("Name");
+        JTextField nameField=new JTextField();
+        frame.add(nameLabel);
+        frame.add(nameField);
+
 
 
 
