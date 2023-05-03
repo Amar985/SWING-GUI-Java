@@ -10,6 +10,11 @@ public class Register {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true);
 
+        JLabel message=new JLabel("Register a new Student");
+        message.setFont(new Font("Courier", Font.BOLD, 20));
+        frame.add(message);
+
+        //
         
 
 
