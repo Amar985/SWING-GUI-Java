@@ -31,8 +31,23 @@ public class Register {
         genderGroup.add(genderMale);
         genderGroup.add(genderFemale);
 
+        JLabel mobileNOLabel=new JLabel("Mobile No");
+        JTextField mobileNoField=new JTextField();
+        frame.add(mobileNOLabel);
+        frame.add(mobileNoField);
+
+        JLabel passwordLabel=new JLabel("Password");
+        JLabel rePasswordLabel=new JLabel("Re Password");
+        JPasswordField passwordField=new JPasswordField();
+        JPasswordField rePasswordField=new JPasswordField();
+        frame.add(passwordField);
+        frame.add(passwordLabel);
+        frame.add(rePasswordField);
+        frame.add(rePasswordLabel);
+
         
- 
+
+
 
     }
 
