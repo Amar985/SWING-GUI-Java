@@ -20,7 +20,18 @@ public class Register {
         frame.add(nameLabel);
         frame.add(nameField);
 
+        JLabel genderLabel= new JLabel("Gender");
+        JRadioButton genderMale= new JRadioButton("Male", true);
+        JRadioButton genderFemale= new JRadioButton("Female");
 
+        frame.add(genderLabel);
+        frame.add(genderMale);
+        frame.add(genderFemale);
+        ButtonGroup genderGroup= new ButtonGroup();
+        genderGroup.add(genderMale);
+        genderGroup.add(genderFemale);
+
+        
 
 
     }
