@@ -53,7 +53,18 @@ public class Register {
         frame.add(programList);
         frame.add(programLabel);
 
-        
+        JLabel branchLabel=new JLabel("Branch");
+        JComboBox<String> branchList= new JComboBox<String>();
+        branchList.addItem("Computer Science and Engineering");
+        branchList.addItem("Electronics and Telecommunication");
+        branchList.addItem("Information Technology");
+        branchList.addItem("Electrical and Electronics Engineering");
+        branchList.addItem("Electrical Engineering");
+        branchList.addItem("Civil Engineering");
+        frame.add(branchLabel);
+        frame.add(branchList);
+
+
 
 
 
