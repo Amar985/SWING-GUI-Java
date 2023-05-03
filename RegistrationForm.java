@@ -45,6 +45,14 @@ public class Register {
         frame.add(rePasswordField);
         frame.add(rePasswordLabel);
 
+        JLabel programLabel=new JLabel("Courses");
+        JComboBox<String> programList=new JComboBox<String>();
+        programList.addItem("ME/M Tech");
+        programList.addItem("BE/B Tech");
+        programList.addItem("Ph.D. ");
+        frame.add(programList);
+        frame.add(programLabel);
+
         
 
 
