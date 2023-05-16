@@ -68,6 +68,8 @@ public class Register {
         JButton registration=new JButton("Register");
         frame.add(registration);
 
+     
+    
 
         message.setBounds(50,10,600,30);
         nameLabel.setBounds(50,60, 100, 30);
