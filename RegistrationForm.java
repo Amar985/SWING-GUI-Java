@@ -15,7 +15,7 @@ public class Register {
         message.setFont(new Font("Courier", Font.BOLD, 20));
         frame.add(message);
 
-        //
+        //Amar Kumar
         JLabel nameLabel=new JLabel("Name");
         JTextField nameField=new JTextField();
         frame.add(nameLabel);
