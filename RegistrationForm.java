@@ -72,26 +72,3 @@ public class Register {
      
     
 
-        message.setBounds(50,10,600,30);
-        nameLabel.setBounds(50,60, 100, 30);
-        nameField.setBounds(130, 60, 200 ,30);
-        genderLabel.setBounds(50, 160, 100, 30);
-        genderMale.setBounds(130, 160, 100, 30);
-        genderFemale.setBounds(240,160,100,30);
-        mobileNOLabel.setBounds(50,260,100,30);
-        mobileNoField.setBounds(130,260,200,30);
-        passwordLabel.setBounds(50,310,100,30);
-        passwordField.setBounds(130,310,200,30);
-        rePasswordLabel.setBounds(50,360,100,30);
-        rePasswordField.setBounds(130,360,200,30);
-        programLabel.setBounds(50,410,100,30);
-        programList.setBounds(130,410,200,30);
-        branchLabel.setBounds(50,460,100,30);
-        branchList.setBounds(130,460,200,30);
-        registration.setBounds(130,550,200,30);
-
-
-
-    }
-
-}
