@@ -2,7 +2,6 @@ import java.awt.*;
 import javax.swing.*;
  
 
-
 public class Register {
     public static void main(String[] args){
         JFrame frame=new JFrame();
@@ -21,7 +20,6 @@ public class Register {
         JTextField nameField=new JTextField();
         frame.add(nameLabel);
         frame.add(nameField);
-
      
         JLabel genderLabel= new JLabel("Gender");
         JRadioButton genderMale= new JRadioButton("Male", true);
@@ -70,7 +68,6 @@ public class Register {
         JButton registration=new JButton("Register");
         frame.add(registration);
 
-     
         message.setBounds(50,10,600,30);
         nameLabel.setBounds(50,60, 100, 30);
         nameField.setBounds(130, 60, 200 ,30);
@@ -88,8 +85,6 @@ public class Register {
         branchLabel.setBounds(50,460,100,30);
         branchList.setBounds(130,460,200,30);
         registration.setBounds(130,550,200,30);
-
-
 
     }
 
