@@ -15,6 +15,7 @@ public class Register {
         message.setFont(new Font("Courier", Font.BOLD, 20));
         frame.add(message);
 
+
         //Amar Kumar
         JLabel nameLabel=new JLabel("Name");
         JTextField nameField=new JTextField();
@@ -36,6 +37,7 @@ public class Register {
         JTextField mobileNoField=new JTextField();
         frame.add(mobileNOLabel);
         frame.add(mobileNoField);
+     
 
         JLabel passwordLabel=new JLabel("Password");
         JLabel rePasswordLabel=new JLabel("Re Password");
@@ -54,6 +56,7 @@ public class Register {
         frame.add(programList);
         frame.add(programLabel);
 
+     
         JLabel branchLabel=new JLabel("Branch");
         JComboBox<String> branchList= new JComboBox<String>();
         branchList.addItem("Computer Science and Engineering");
